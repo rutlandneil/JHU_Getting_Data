@@ -144,14 +144,14 @@ AND
 
 The expansions applied are listed below;
  
-'BodyAcc' =  ' Body Accelerometer'
-'BodyGyro' = ' Body Gyroscope'
-'GravityAcc' = ' Gravity Accelerometer'
-'GravityGyro' = ' Gravity Gyroscope'
-'Freq', ' - Frequency'
-'Mag', ' Magnitude'
-'f ', 'Time Domain '
-'t ', '- Frequency Domain '
+* 'BodyAcc' =  ' Body Accelerometer'
+* 'BodyGyro' = ' Body Gyroscope'
+* 'GravityAcc' = ' Gravity Accelerometer'
+* 'GravityGyro' = ' Gravity Gyroscope'
+* 'Freq', ' - Frequency'
+* 'Mag', ' Magnitude'
+* 'f ', 'Time Domain '
+* 't ', '- Frequency Domain '
 
 Some additional cleanup of the names was done to remove double spaces and other minor grammatical oddities from the names and make them Syntactically accurate for R
 as per the make.names() function
