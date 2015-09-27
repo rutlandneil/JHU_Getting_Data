@@ -32,5 +32,3 @@ Each row of the Tidy data set represents a subject and activity along with the m
 data <- read.table("./TidyData.txt', header = TRUE)
     View(data)
 
-
-
