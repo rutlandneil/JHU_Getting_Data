@@ -115,7 +115,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean"
 
-###Data Transformations to Raw Data
+##Data Transformations to Raw Data
 
 It is noted in the original experiment that the values for the features 'are normalized and bounded within [-1,1]' effectively removing the units of measure. This process is 
 performed to allow for comparison of the features despite them initially being recorded in different units of measurement (Rate of Acceleration for Accelerometer vs
@@ -125,11 +125,11 @@ To produce the Tidy Data file for this experiment the files provided in the raw 
 test and train data.
 
 This was achieved using the following transformations
-*add features.txt as column names (with R's name() function) to X_test and X_train
-*add y_train as column 1 to X_train and y_test as column 1 to X_test
-*add subject_train as column 1 to X_train and subject_test as column 1 X_test
-*use the index value added from y_train/y_test to lookup the string description from activity_labels.txt and add this as an extra column.
-*bind the two data frames together to produce a single data frame incorporating both train and test data for all observations of all variables.
+* add features.txt as column names (with R's name() function) to X_test and X_train
+* add y_train as column 1 to X_train and y_test as column 1 to X_test
+* add subject_train as column 1 to X_train and subject_test as column 1 X_test
+* use the index value added from y_train/y_test to lookup the string description from activity_labels.txt and add this as an extra column.
+* bind the two data frames together to produce a single data frame incorporating both train and test data for all observations of all variables.
 
 From the 561 variables recorded in the raw data set only those related to measurements of the Mean or Standard deviation were extracted this included those records 
 derived from the other measurements resulting in 86 variables. This was achieved by matching the variable names in the
