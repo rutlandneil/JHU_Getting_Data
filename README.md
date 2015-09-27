@@ -9,11 +9,11 @@ The files contained here will allow you to take the raw data set provided for th
 
 In this repository there are 5 files;
 
--getdata_projectfiles_UCI HAR Dataset.zip
--README.md
--CodeBook.md
--run_analysis.R
--TidyData.txt
+- getdata_projectfiles_UCI HAR Dataset.zip
+- README.md
+- CodeBook.md
+- run_analysis.R
+- TidyData.txt
 
 ##Instructions
 
